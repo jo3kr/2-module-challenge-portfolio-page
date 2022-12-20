@@ -1,1 +1,39 @@
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* sets font family, background color and text color for the header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* sets h1 elements font size in header and to display inline */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* sets navigation elements' font family & size, adds margin, and floats them to the right */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* sets no item marker */
+header nav ul {
+    list-style-type: none;
+}
+/* displays nav elements in a line */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* sets nav links to be white and no underline*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}

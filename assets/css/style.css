@@ -19,8 +19,6 @@ header h1 {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 /* sets no item marker */
@@ -36,4 +34,10 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    
 }

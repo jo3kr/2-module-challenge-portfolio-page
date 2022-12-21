@@ -36,8 +36,23 @@ a {
     text-decoration: none;
 }
 
-.about-me {
+.section p {
     display: flex;
     justify-content: center;
-    
+    color: fuchsia;
+}
+
+.box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+.underbox {
+    display: inline-block;
+    margin: 0 10% 0 0;
 }
